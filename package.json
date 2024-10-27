@@ -1,0 +1,29 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Node js course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon src/Servers/server.js",
+    "routing": "nodemon src/Servers/routing.js",
+    "files": "nodemon src/Servers/LoadingFiles.js",
+    "server2": "nodemon src/Servers/server2.js",
+    "middleWare": "nodemon src/Servers/middleWare.js",
+    "fsDemo": "nodemon src/Servers/fsDemo.js",
+    "PathDemo": "nodemon src/Servers/PathDemo.js",
+    "osDemo": "nodemon src/Servers/OsDemo.js",
+    "urlDemo": "nodemon src/Servers/urlDemo.js",
+    "CryptoDemo": "nodemon src/Servers/CryptoDemo.js",
+    "eventsDemo": "nodemon src/Servers/EventsDemo.js",
+    "processDemo": "nodemon src/Servers/processDemo.js"
+  },
+  "author": "Umar Programmer",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
